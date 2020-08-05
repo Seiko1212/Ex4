@@ -9,7 +9,12 @@ import java.util.*;
 	 int c;
 	 int h=0,t=0;
 	 Random r = new Random();
+	 Scanner sc = new Scanner(System.in);
 	 
+	 
+           System.out.println("Who are you?");
+	   String str = sc.nextLine();
+	   System.out.printf("Hello, %s!\n",str);
 	  System.out.println("Tossing a coin...");
 	 for(int i=0; i < 3; i++)
 	     {
@@ -21,6 +26,8 @@ import java.util.*;
 	 
 	 
 	 System.out.printf("Heads: %d, Tails: %d\n",h,t);	 
+	 
+
 
 
      }
