@@ -26,8 +26,8 @@ import java.util.*;
 	 
 	
 	 System.out.printf("Heads: %d, Tails: %d\n",h,t);
-	 if(h>t) System.out.println("You won!");
-	 else System.out.println("You lost!");
+	 if(h>t) System.out.printf("%s won!\n",str);
+	 else System.out.printf("%s lost!\n",str);
      }
 
 
